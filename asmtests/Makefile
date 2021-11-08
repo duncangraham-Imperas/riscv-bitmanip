@@ -41,7 +41,7 @@ RUN_TARGET = \
         --override riscvOVPsim/cpu/user_version=2.3 \
         --override riscvOVPsim/cpu/priv_version=1.11 \
         --override riscvOVPsim/cpu/add_Extensions=B \
-        --override riscvOVPsim/cpu/bitmanip_version=0.92
+        --override riscvOVPsim/cpu/bitmanip_version=0.93
 
 all: 
 	$(MAKE) -C extB $@
